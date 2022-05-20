@@ -11,8 +11,7 @@ import { MovieTypes } from '../../types/index';
 
 
 const Watch = ({ movie }) => {
-  const { title, description, year, files, countries_str, genres_str } =
-    movie;
+  const { title, description, year, files, countries_str, genres_str } = movie;
   const src = files.poster_url;
   const [isLoading, setLoading] = useState(false);
 
@@ -74,8 +73,9 @@ const Watch = ({ movie }) => {
 export default Watch;
 
 export const getServerSideProps = async({ params })=> {
+  const id=params.id || 1;
   const res = await fetch(
-    `https://api.itv.uz/api/content/main/2/show/${params.id}?&user=a71651276800s055120e1a6ffaa1ec27`
+    `https://api.itv.uz/api/content/main/2/show/${id}?&user=a71651276800s055120e1a6ffaa1ec27`
   );
   const json = await res.json();
   return {
