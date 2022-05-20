@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #222933;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.MuiPaginationItem-root {
+  color: #fff !important;
+
+  &:hover {
+    background-color: blue !important;
+  }
+}
+
+.Mui-selected {
+  background-color: blue !important;
+}
+
+.MuiPaginationItem-ellipsis {
+  background-color: transparent !important;
+
+  &:hover {
+    background-color: transparent !important;
+  }
+}

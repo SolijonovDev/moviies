@@ -1,0 +1,31 @@
+.header{
+    padding: 20px 0;
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_logo{
+            font-size: 40px;
+            font-weight: 700;
+            text-decoration: none;
+            color:#fff;
+            @media (max-width:1000px) {
+                font-size: 45px;
+            }
+            @media (max-width:600px) {
+                font-size: 36px;
+            }
+    }
+}
+.main{
+    min-height: 100vh;
+}
+.footer{
+    padding: 30px 0;
+    .text{
+        text-align: center;
+        color:#fff;
+        font-size: 20px;
+    }
+}

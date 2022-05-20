@@ -1,0 +1,19 @@
+.loading{
+    width: 100vw;
+    height: calc(100vh - 160px);
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+    .text{
+        color:#fff;
+        font-size: 40px;
+        font-weight: 700;
+        @media (max-width:1000px) {
+            font-size: 32px;
+        }
+        @media (max-width:600px) {
+            font-size: 26px;
+        }
+    }
+}
