@@ -1,0 +1,49 @@
+.header {
+  padding: 20px 0;
+}
+
+.header .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_logo {
+  font-size: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .header_logo {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_logo {
+    font-size: 36px;
+  }
+}
+
+.main {
+  min-height: 100vh;
+}
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer .text {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+/*# sourceMappingURL=layout.module.css.map */

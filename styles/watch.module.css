@@ -1,0 +1,163 @@
+.movie {
+  width: 100%;
+  min-height: 400px;
+}
+
+.movie .inner {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1000px) {
+  .movie .inner {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .movie .inner {
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+}
+
+.movie_video {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.movie_video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .movie_video {
+    height: 400px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .movie_video {
+    height: 350px;
+    margin-bottom: 30px;
+  }
+}
+
+.movie_video iframe {
+  border: none;
+}
+
+.movie_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 40px;
+  padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .movie_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.movie_photo {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 400px;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .movie_photo {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .movie_photo {
+    height: 200px;
+  }
+}
+
+.movie_photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.movie_texts {
+  width: 60%;
+  padding: 0 25px;
+}
+
+@media (max-width: 600px) {
+  .movie_texts {
+    width: 100%;
+    padding: 15px 0;
+  }
+}
+
+.movie_texts h2 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .movie_texts h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .movie_texts h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+}
+
+.movie_texts p {
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .movie_texts p {
+    margin-bottom: 12px;
+    font-size: 15px;
+    letter-spacing: .7px;
+  }
+}
+
+@media (max-width: 600px) {
+  .movie_texts p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    letter-spacing: .5px;
+  }
+}
+/*# sourceMappingURL=watch.module.css.map */

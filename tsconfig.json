@@ -25,7 +25,7 @@
     "**/*.js",
     "**/*.jsx",
     "**/*.tsx"
-, "pages/index.js", "pages/_app.js", "papages/watch/[id].js "pages/_document.js"  ],
+, "pages/index.js", "pages/_app.js", "papages/watch/[id].js ", "pages/_document.js"],
   "exclude": [
     "node_modules"
   ]
